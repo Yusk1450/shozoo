@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C72E73FE8F72CA75C308DE1 /* Pods_shozooTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0417FC18A481DA0FC895D74 /* Pods_shozooTests.framework */; };
+		C50E5DBA96EB0C6CBE8CA387 /* Pods_shozoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602BFAB2E6E57E66AB970BA6 /* Pods_shozoo.framework */; };
+		CE0DE87C2D63BBEA007CF9CD /* recordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DE87B2D63BBEA007CF9CD /* recordsViewController.swift */; };
+		CE927BDF2D59E19700394381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE927BDE2D59E19700394381 /* AppDelegate.swift */; };
+		CE927BE12D59E19700394381 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE927BE02D59E19700394381 /* SceneDelegate.swift */; };
+		CE927BE32D59E19700394381 /* BLEConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE927BE22D59E19700394381 /* BLEConnectViewController.swift */; };
+		CE927BE62D59E19700394381 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CE927BE52D59E19700394381 /* Base */; };
+		CE927BE82D59E19800394381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE927BE72D59E19800394381 /* Assets.xcassets */; };
+		CE927BEB2D59E19800394381 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CE927BEA2D59E19800394381 /* Base */; };
+		CE927BF62D59E19800394381 /* shozooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE927BF52D59E19800394381 /* shozooTests.swift */; };
+		CE927C002D59E19800394381 /* shozooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE927BFF2D59E19800394381 /* shozooUITests.swift */; };
+		CE927C022D59E19800394381 /* shozooUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE927C012D59E19800394381 /* shozooUITestsLaunchTests.swift */; };
+		CE927C132D630DD700394381 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE927C122D630DD700394381 /* BLEManager.swift */; };
+		CE927C152D632C7D00394381 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE927C142D632C7D00394381 /* mainViewController.swift */; };
+		CE98E69F2D687D370041012A /* animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE98E69E2D687D370041012A /* animals.swift */; };
+		CEFA0EC92D6788BA00DEBC0B /* disConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA0EC82D6788BA00DEBC0B /* disConnectViewController.swift */; };
+		CEFA0ECC2D678EA600DEBC0B /* KiwiMaru-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEFA0ECA2D678EA600DEBC0B /* KiwiMaru-Medium.ttf */; };
+		CEFA0ECD2D678EA600DEBC0B /* KiwiMaru-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEFA0ECB2D678EA600DEBC0B /* KiwiMaru-Regular.ttf */; };
+		DCAAC872D704BDDB8CE21F1E /* Pods_shozoo_shozooUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE622B5A99FC75FB26E804AB /* Pods_shozoo_shozooUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE927BF22D59E19800394381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE927BD32D59E19600394381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE927BDA2D59E19700394381;
+			remoteInfo = shozoo;
+		};
+		CE927BFC2D59E19800394381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE927BD32D59E19600394381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE927BDA2D59E19700394381;
+			remoteInfo = shozoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D0A043DF906D0D62858959F /* Pods-shozoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shozoo.debug.xcconfig"; path = "Target Support Files/Pods-shozoo/Pods-shozoo.debug.xcconfig"; sourceTree = "<group>"; };
+		5D79F341C639932081BD21FD /* Pods-shozoo-shozooUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shozoo-shozooUITests.release.xcconfig"; path = "Target Support Files/Pods-shozoo-shozooUITests/Pods-shozoo-shozooUITests.release.xcconfig"; sourceTree = "<group>"; };
+		602BFAB2E6E57E66AB970BA6 /* Pods_shozoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shozoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9164C694E29E63E3FF8764F8 /* Pods-shozoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shozoo.release.xcconfig"; path = "Target Support Files/Pods-shozoo/Pods-shozoo.release.xcconfig"; sourceTree = "<group>"; };
+		CE0DE87B2D63BBEA007CF9CD /* recordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordsViewController.swift; sourceTree = "<group>"; };
+		CE927BDB2D59E19700394381 /* shozoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shozoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE927BDE2D59E19700394381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE927BE02D59E19700394381 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE927BE22D59E19700394381 /* BLEConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEConnectViewController.swift; sourceTree = "<group>"; };
+		CE927BE52D59E19700394381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE927BE72D59E19800394381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE927BEA2D59E19800394381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE927BEC2D59E19800394381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE927BF12D59E19800394381 /* shozooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shozooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE927BF52D59E19800394381 /* shozooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shozooTests.swift; sourceTree = "<group>"; };
+		CE927BFB2D59E19800394381 /* shozooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shozooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE927BFF2D59E19800394381 /* shozooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shozooUITests.swift; sourceTree = "<group>"; };
+		CE927C012D59E19800394381 /* shozooUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shozooUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE927C122D630DD700394381 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		CE927C142D632C7D00394381 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		CE98E69E2D687D370041012A /* animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animals.swift; sourceTree = "<group>"; };
+		CEFA0EC82D6788BA00DEBC0B /* disConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disConnectViewController.swift; sourceTree = "<group>"; };
+		CEFA0ECA2D678EA600DEBC0B /* KiwiMaru-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KiwiMaru-Medium.ttf"; sourceTree = "<group>"; };
+		CEFA0ECB2D678EA600DEBC0B /* KiwiMaru-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KiwiMaru-Regular.ttf"; sourceTree = "<group>"; };
+		D5B4CE26F0BD02766DA56D6E /* Pods-shozooTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shozooTests.debug.xcconfig"; path = "Target Support Files/Pods-shozooTests/Pods-shozooTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0417FC18A481DA0FC895D74 /* Pods_shozooTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shozooTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8690B1FBA15330B3DEF73B /* Pods-shozoo-shozooUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shozoo-shozooUITests.debug.xcconfig"; path = "Target Support Files/Pods-shozoo-shozooUITests/Pods-shozoo-shozooUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9F47E50BFCDE3FC3A2647F7 /* Pods-shozooTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shozooTests.release.xcconfig"; path = "Target Support Files/Pods-shozooTests/Pods-shozooTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE622B5A99FC75FB26E804AB /* Pods_shozoo_shozooUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shozoo_shozooUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE927BD82D59E19700394381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50E5DBA96EB0C6CBE8CA387 /* Pods_shozoo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE927BEE2D59E19800394381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C72E73FE8F72CA75C308DE1 /* Pods_shozooTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE927BF82D59E19800394381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAAC872D704BDDB8CE21F1E /* Pods_shozoo_shozooUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4093766369A463A0DA0DD3D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D0A043DF906D0D62858959F /* Pods-shozoo.debug.xcconfig */,
+				9164C694E29E63E3FF8764F8 /* Pods-shozoo.release.xcconfig */,
+				EC8690B1FBA15330B3DEF73B /* Pods-shozoo-shozooUITests.debug.xcconfig */,
+				5D79F341C639932081BD21FD /* Pods-shozoo-shozooUITests.release.xcconfig */,
+				D5B4CE26F0BD02766DA56D6E /* Pods-shozooTests.debug.xcconfig */,
+				F9F47E50BFCDE3FC3A2647F7 /* Pods-shozooTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE927BD22D59E19600394381 = {
+			isa = PBXGroup;
+			children = (
+				CE927BDD2D59E19700394381 /* shozoo */,
+				CE927BF42D59E19800394381 /* shozooTests */,
+				CE927BFE2D59E19800394381 /* shozooUITests */,
+				CE927BDC2D59E19700394381 /* Products */,
+				4093766369A463A0DA0DD3D1 /* Pods */,
+				DBD3645BF1A1E9EF88C98171 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE927BDC2D59E19700394381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE927BDB2D59E19700394381 /* shozoo.app */,
+				CE927BF12D59E19800394381 /* shozooTests.xctest */,
+				CE927BFB2D59E19800394381 /* shozooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE927BDD2D59E19700394381 /* shozoo */ = {
+			isa = PBXGroup;
+			children = (
+				CE98E69E2D687D370041012A /* animals.swift */,
+				CE927C122D630DD700394381 /* BLEManager.swift */,
+				CE927C142D632C7D00394381 /* mainViewController.swift */,
+				CE927BDE2D59E19700394381 /* AppDelegate.swift */,
+				CE927BE02D59E19700394381 /* SceneDelegate.swift */,
+				CE927BE22D59E19700394381 /* BLEConnectViewController.swift */,
+				CE0DE87B2D63BBEA007CF9CD /* recordsViewController.swift */,
+				CEFA0EC82D6788BA00DEBC0B /* disConnectViewController.swift */,
+				CE927BE42D59E19700394381 /* Main.storyboard */,
+				CE927BE92D59E19800394381 /* LaunchScreen.storyboard */,
+				CE927BE72D59E19800394381 /* Assets.xcassets */,
+				CEFA0ECA2D678EA600DEBC0B /* KiwiMaru-Medium.ttf */,
+				CEFA0ECB2D678EA600DEBC0B /* KiwiMaru-Regular.ttf */,
+				CE927BEC2D59E19800394381 /* Info.plist */,
+			);
+			path = shozoo;
+			sourceTree = "<group>";
+		};
+		CE927BF42D59E19800394381 /* shozooTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE927BF52D59E19800394381 /* shozooTests.swift */,
+			);
+			path = shozooTests;
+			sourceTree = "<group>";
+		};
+		CE927BFE2D59E19800394381 /* shozooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE927BFF2D59E19800394381 /* shozooUITests.swift */,
+				CE927C012D59E19800394381 /* shozooUITestsLaunchTests.swift */,
+			);
+			path = shozooUITests;
+			sourceTree = "<group>";
+		};
+		DBD3645BF1A1E9EF88C98171 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				602BFAB2E6E57E66AB970BA6 /* Pods_shozoo.framework */,
+				FE622B5A99FC75FB26E804AB /* Pods_shozoo_shozooUITests.framework */,
+				E0417FC18A481DA0FC895D74 /* Pods_shozooTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE927BDA2D59E19700394381 /* shozoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE927C052D59E19800394381 /* Build configuration list for PBXNativeTarget "shozoo" */;
+			buildPhases = (
+				50EBC3C2E42B9088DE85E62A /* [CP] Check Pods Manifest.lock */,
+				CE927BD72D59E19700394381 /* Sources */,
+				CE927BD82D59E19700394381 /* Frameworks */,
+				CE927BD92D59E19700394381 /* Resources */,
+				CF21B6200D6FD6DB3A00F0CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shozoo;
+			productName = shozoo;
+			productReference = CE927BDB2D59E19700394381 /* shozoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE927BF02D59E19800394381 /* shozooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE927C082D59E19800394381 /* Build configuration list for PBXNativeTarget "shozooTests" */;
+			buildPhases = (
+				465E5904789B3650E88C282B /* [CP] Check Pods Manifest.lock */,
+				CE927BED2D59E19800394381 /* Sources */,
+				CE927BEE2D59E19800394381 /* Frameworks */,
+				CE927BEF2D59E19800394381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE927BF32D59E19800394381 /* PBXTargetDependency */,
+			);
+			name = shozooTests;
+			productName = shozooTests;
+			productReference = CE927BF12D59E19800394381 /* shozooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE927BFA2D59E19800394381 /* shozooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE927C0B2D59E19800394381 /* Build configuration list for PBXNativeTarget "shozooUITests" */;
+			buildPhases = (
+				14D73F309BF8506E8151F015 /* [CP] Check Pods Manifest.lock */,
+				CE927BF72D59E19800394381 /* Sources */,
+				CE927BF82D59E19800394381 /* Frameworks */,
+				CE927BF92D59E19800394381 /* Resources */,
+				EAC4867D7DC8DA174DFB6528 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE927BFD2D59E19800394381 /* PBXTargetDependency */,
+			);
+			name = shozooUITests;
+			productName = shozooUITests;
+			productReference = CE927BFB2D59E19800394381 /* shozooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE927BD32D59E19600394381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CE927BDA2D59E19700394381 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CE927BF02D59E19800394381 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CE927BDA2D59E19700394381;
+					};
+					CE927BFA2D59E19800394381 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CE927BDA2D59E19700394381;
+					};
+				};
+			};
+			buildConfigurationList = CE927BD62D59E19600394381 /* Build configuration list for PBXProject "shozoo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE927BD22D59E19600394381;
+			productRefGroup = CE927BDC2D59E19700394381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE927BDA2D59E19700394381 /* shozoo */,
+				CE927BF02D59E19800394381 /* shozooTests */,
+				CE927BFA2D59E19800394381 /* shozooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE927BD92D59E19700394381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE927BE82D59E19800394381 /* Assets.xcassets in Resources */,
+				CE927BEB2D59E19800394381 /* Base in Resources */,
+				CEFA0ECC2D678EA600DEBC0B /* KiwiMaru-Medium.ttf in Resources */,
+				CEFA0ECD2D678EA600DEBC0B /* KiwiMaru-Regular.ttf in Resources */,
+				CE927BE62D59E19700394381 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE927BEF2D59E19800394381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE927BF92D59E19800394381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14D73F309BF8506E8151F015 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shozoo-shozooUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		465E5904789B3650E88C282B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shozooTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50EBC3C2E42B9088DE85E62A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shozoo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF21B6200D6FD6DB3A00F0CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shozoo/Pods-shozoo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shozoo/Pods-shozoo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shozoo/Pods-shozoo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAC4867D7DC8DA174DFB6528 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shozoo-shozooUITests/Pods-shozoo-shozooUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shozoo-shozooUITests/Pods-shozoo-shozooUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shozoo-shozooUITests/Pods-shozoo-shozooUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE927BD72D59E19700394381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE927BE32D59E19700394381 /* BLEConnectViewController.swift in Sources */,
+				CE0DE87C2D63BBEA007CF9CD /* recordsViewController.swift in Sources */,
+				CE927C132D630DD700394381 /* BLEManager.swift in Sources */,
+				CE927C152D632C7D00394381 /* mainViewController.swift in Sources */,
+				CE927BDF2D59E19700394381 /* AppDelegate.swift in Sources */,
+				CE98E69F2D687D370041012A /* animals.swift in Sources */,
+				CE927BE12D59E19700394381 /* SceneDelegate.swift in Sources */,
+				CEFA0EC92D6788BA00DEBC0B /* disConnectViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE927BED2D59E19800394381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE927BF62D59E19800394381 /* shozooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE927BF72D59E19800394381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE927C022D59E19800394381 /* shozooUITestsLaunchTests.swift in Sources */,
+				CE927C002D59E19800394381 /* shozooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE927BF32D59E19800394381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE927BDA2D59E19700394381 /* shozoo */;
+			targetProxy = CE927BF22D59E19800394381 /* PBXContainerItemProxy */;
+		};
+		CE927BFD2D59E19800394381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE927BDA2D59E19700394381 /* shozoo */;
+			targetProxy = CE927BFC2D59E19800394381 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE927BE42D59E19700394381 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE927BE52D59E19700394381 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE927BE92D59E19800394381 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE927BEA2D59E19800394381 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE927C032D59E19800394381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE927C042D59E19800394381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE927C062D59E19800394381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D0A043DF906D0D62858959F /* Pods-shozoo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MT2JN72543;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = shozoo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = or.nbu.shozoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE927C072D59E19800394381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9164C694E29E63E3FF8764F8 /* Pods-shozoo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MT2JN72543;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = shozoo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = or.nbu.shozoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE927C092D59E19800394381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B4CE26F0BD02766DA56D6E /* Pods-shozooTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MT2JN72543;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = or.nbu.shozooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shozoo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/shozoo";
+			};
+			name = Debug;
+		};
+		CE927C0A2D59E19800394381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9F47E50BFCDE3FC3A2647F7 /* Pods-shozooTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MT2JN72543;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = or.nbu.shozooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shozoo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/shozoo";
+			};
+			name = Release;
+		};
+		CE927C0C2D59E19800394381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8690B1FBA15330B3DEF73B /* Pods-shozoo-shozooUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MT2JN72543;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = or.nbu.shozooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = shozoo;
+			};
+			name = Debug;
+		};
+		CE927C0D2D59E19800394381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D79F341C639932081BD21FD /* Pods-shozoo-shozooUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MT2JN72543;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = or.nbu.shozooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = shozoo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE927BD62D59E19600394381 /* Build configuration list for PBXProject "shozoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE927C032D59E19800394381 /* Debug */,
+				CE927C042D59E19800394381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE927C052D59E19800394381 /* Build configuration list for PBXNativeTarget "shozoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE927C062D59E19800394381 /* Debug */,
+				CE927C072D59E19800394381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE927C082D59E19800394381 /* Build configuration list for PBXNativeTarget "shozooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE927C092D59E19800394381 /* Debug */,
+				CE927C0A2D59E19800394381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE927C0B2D59E19800394381 /* Build configuration list for PBXNativeTarget "shozooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE927C0C2D59E19800394381 /* Debug */,
+				CE927C0D2D59E19800394381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE927BD32D59E19600394381 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_shozoo_shozooUITests {
+  umbrella header "Pods-shozoo-shozooUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
